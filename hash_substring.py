@@ -3,8 +3,8 @@ import os
 def read_input():
     input_type = input()
     if input_type == 'I':
-        pattern = input().rstrip()
-        text = input().rstrip()
+        pattern = input().strip()
+        text = input().strip()
     elif input_type == 'F':
         this_dir = os.path.dirname(__file__) #<-- absolute dir the script is in
         rel_p = "tests/06"
