@@ -6,7 +6,7 @@ def read_input():
         pattern = input().strip()
         text = input().strip()
     elif input_type == 'F':
-        this_dir = os.path.dirname(__file__) #<-- absolute dir the script is in
+        this_dir = os.path.dirname(__file__)
         rel_p = "tests/06"
         abs_fp = os.path.join( this_dir, rel_p)
         with open(abs_fp, "r") as f:
