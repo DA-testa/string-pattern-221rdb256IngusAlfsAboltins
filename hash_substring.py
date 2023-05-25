@@ -20,7 +20,7 @@ def print_occurrences(output):
     print(' '.join(map(str, output)))
 
 def get_occurrences(pattern, text):
-    p = 10000000019
+    p = 10**9+7
     x = 256
     result = []
     p_len = len(pattern)
